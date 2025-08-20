@@ -1,0 +1,13 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+
+/* Retro fonts (Press Start 2P for headings / buttons, VT323 for codey bodies) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+@layer base {
+	.font-press { font-family: 'Press Start 2P', monospace; }
+	.font-vt { font-family: 'VT323', monospace; }
+}
